@@ -19,7 +19,7 @@ int main(int ac, char **av)
 
 	if (ac == 2)
 	{
-		fd = open(av[1], O_RDONLY);
+		ge = open(av[1], O_RDONLY);
 		if (ge == -1)
 		{
 			if (errno == EACCES)
